@@ -27,14 +27,14 @@
 		3C73E6561E9B824F00AF15C9 /* CLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6551E9B824F00AF15C9 /* CLoginModel.swift */; };
 		3C73E6581E9B839D00AF15C9 /* UrlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6571E9B839D00AF15C9 /* UrlConstants.swift */; };
 		3C73E65B1E9B84AA00AF15C9 /* SendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E65A1E9B84AA00AF15C9 /* SendController.swift */; };
-		3C73E65D1E9B84B400AF15C9 /* Send.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C73E65C1E9B84B400AF15C9 /* Send.storyboard */; };
-		3C73E6601E9B855B00AF15C9 /* SetInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C73E65F1E9B855B00AF15C9 /* SetInfo.storyboard */; };
+		3C73E65D1E9B84B400AF15C9 /* SetInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C73E65C1E9B84B400AF15C9 /* SetInfo.storyboard */; };
+		3C73E6601E9B855B00AF15C9 /* Send.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C73E65F1E9B855B00AF15C9 /* Send.storyboard */; };
 		3C73E6621E9B86C700AF15C9 /* SetInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6611E9B86C700AF15C9 /* SetInfoController.swift */; };
 		3C73E6641E9B877D00AF15C9 /* Navi1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6631E9B877D00AF15C9 /* Navi1Controller.swift */; };
 		3C73E6661E9B879100AF15C9 /* Navi2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6651E9B879100AF15C9 /* Navi2Controller.swift */; };
-		3C73E6681E9B88E500AF15C9 /* SetInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6671E9B88E500AF15C9 /* SetInfoDTO.swift */; };
-		3C73E66A1E9B894500AF15C9 /* SetInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6691E9B894500AF15C9 /* SetInfoModel.swift */; };
-		3C73E66C1E9B8A4700AF15C9 /* SetInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E66B1E9B8A4700AF15C9 /* SetInfoCell.swift */; };
+		3C73E6681E9B88E500AF15C9 /* SendDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6671E9B88E500AF15C9 /* SendDTO.swift */; };
+		3C73E66A1E9B894500AF15C9 /* SendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E6691E9B894500AF15C9 /* SendModel.swift */; };
+		3C73E66C1E9B8A4700AF15C9 /* SendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73E66B1E9B8A4700AF15C9 /* SendCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,14 +61,14 @@
 		3C73E6551E9B824F00AF15C9 /* CLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLoginModel.swift; sourceTree = "<group>"; };
 		3C73E6571E9B839D00AF15C9 /* UrlConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlConstants.swift; sourceTree = "<group>"; };
 		3C73E65A1E9B84AA00AF15C9 /* SendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendController.swift; sourceTree = "<group>"; };
-		3C73E65C1E9B84B400AF15C9 /* Send.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Send.storyboard; sourceTree = "<group>"; };
-		3C73E65F1E9B855B00AF15C9 /* SetInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SetInfo.storyboard; sourceTree = "<group>"; };
+		3C73E65C1E9B84B400AF15C9 /* SetInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SetInfo.storyboard; sourceTree = "<group>"; };
+		3C73E65F1E9B855B00AF15C9 /* Send.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Send.storyboard; sourceTree = "<group>"; };
 		3C73E6611E9B86C700AF15C9 /* SetInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetInfoController.swift; sourceTree = "<group>"; };
 		3C73E6631E9B877D00AF15C9 /* Navi1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navi1Controller.swift; sourceTree = "<group>"; };
 		3C73E6651E9B879100AF15C9 /* Navi2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navi2Controller.swift; sourceTree = "<group>"; };
-		3C73E6671E9B88E500AF15C9 /* SetInfoDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetInfoDTO.swift; sourceTree = "<group>"; };
-		3C73E6691E9B894500AF15C9 /* SetInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetInfoModel.swift; sourceTree = "<group>"; };
-		3C73E66B1E9B8A4700AF15C9 /* SetInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetInfoCell.swift; sourceTree = "<group>"; };
+		3C73E6671E9B88E500AF15C9 /* SendDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendDTO.swift; sourceTree = "<group>"; };
+		3C73E6691E9B894500AF15C9 /* SendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendModel.swift; sourceTree = "<group>"; };
+		3C73E66B1E9B8A4700AF15C9 /* SendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendCell.swift; sourceTree = "<group>"; };
 		ADF5CD44F5D9734291DDDCA7 /* Pods-Aimeishi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aimeishi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aimeishi/Pods-Aimeishi.release.xcconfig"; sourceTree = "<group>"; };
 		FBF350067C2A3667339938A7 /* Pods_Aimeishi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aimeishi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -208,8 +208,11 @@
 		3C73E6591E9B848A00AF15C9 /* SendPage */ = {
 			isa = PBXGroup;
 			children = (
-				3C73E65C1E9B84B400AF15C9 /* Send.storyboard */,
+				3C73E65F1E9B855B00AF15C9 /* Send.storyboard */,
 				3C73E65A1E9B84AA00AF15C9 /* SendController.swift */,
+				3C73E6691E9B894500AF15C9 /* SendModel.swift */,
+				3C73E6671E9B88E500AF15C9 /* SendDTO.swift */,
+				3C73E66B1E9B8A4700AF15C9 /* SendCell.swift */,
 			);
 			name = SendPage;
 			sourceTree = "<group>";
@@ -217,11 +220,8 @@
 		3C73E65E1E9B854200AF15C9 /* SetInfoPage */ = {
 			isa = PBXGroup;
 			children = (
-				3C73E65F1E9B855B00AF15C9 /* SetInfo.storyboard */,
+				3C73E65C1E9B84B400AF15C9 /* SetInfo.storyboard */,
 				3C73E6611E9B86C700AF15C9 /* SetInfoController.swift */,
-				3C73E6691E9B894500AF15C9 /* SetInfoModel.swift */,
-				3C73E6671E9B88E500AF15C9 /* SetInfoDTO.swift */,
-				3C73E66B1E9B8A4700AF15C9 /* SetInfoCell.swift */,
 			);
 			name = SetInfoPage;
 			sourceTree = "<group>";
@@ -299,7 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C73E65D1E9B84B400AF15C9 /* Send.storyboard in Resources */,
+				3C73E65D1E9B84B400AF15C9 /* SetInfo.storyboard in Resources */,
 				3C73E63B1E9B71D600AF15C9 /* Localizable.strings in Resources */,
 				3C73E6461E9B771200AF15C9 /* CMain.storyboard in Resources */,
 				3C73E6261E9B5EEE00AF15C9 /* LaunchScreen.storyboard in Resources */,
@@ -307,7 +307,7 @@
 				3C73E6301E9B639100AF15C9 /* CLogin.storyboard in Resources */,
 				3C73E6211E9B5EEE00AF15C9 /* Main.storyboard in Resources */,
 				3C73E64D1E9B790800AF15C9 /* Enter.storyboard in Resources */,
-				3C73E6601E9B855B00AF15C9 /* SetInfo.storyboard in Resources */,
+				3C73E6601E9B855B00AF15C9 /* Send.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C73E66C1E9B8A4700AF15C9 /* SetInfoCell.swift in Sources */,
+				3C73E66C1E9B8A4700AF15C9 /* SendCell.swift in Sources */,
 				3C73E6661E9B879100AF15C9 /* Navi2Controller.swift in Sources */,
 				3C73E61E1E9B5EEE00AF15C9 /* ViewController.swift in Sources */,
 				3C73E6641E9B877D00AF15C9 /* Navi1Controller.swift in Sources */,
@@ -377,8 +377,8 @@
 				3C73E6621E9B86C700AF15C9 /* SetInfoController.swift in Sources */,
 				3C73E6521E9B7EFB00AF15C9 /* UIFont.swift in Sources */,
 				3C73E6371E9B67DD00AF15C9 /* NavigationController.swift in Sources */,
-				3C73E66A1E9B894500AF15C9 /* SetInfoModel.swift in Sources */,
-				3C73E6681E9B88E500AF15C9 /* SetInfoDTO.swift in Sources */,
+				3C73E66A1E9B894500AF15C9 /* SendModel.swift in Sources */,
+				3C73E6681E9B88E500AF15C9 /* SendDTO.swift in Sources */,
 				3C73E6581E9B839D00AF15C9 /* UrlConstants.swift in Sources */,
 				3C73E6561E9B824F00AF15C9 /* CLoginModel.swift in Sources */,
 				3C73E65B1E9B84AA00AF15C9 /* SendController.swift in Sources */,

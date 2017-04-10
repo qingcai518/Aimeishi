@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SetInfoDTO {
+class SendDTO {
     var icon: UIImage
     var title: String
     

@@ -9,12 +9,50 @@
 import UIKit
 
 class SendController: ViewController {
-
+    @IBOutlet weak var collectionView : UICollectionView!
+    
+    let model = SendModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setCollectionView()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    private func setCollectionView() {
+        collectionView.delegate = self
+        collectionView.dataSource = self
+    }
+}
+
+extension SendController : UICollectionViewDelegate {
+    
+}
+
+extension SendController : UICollectionViewDelegateFlowLayout {
+    
+}
+
+extension SendController : UICollectionViewDataSource {
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return model.setInfos.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SendCell", for: indexPath) as! SendCell
+        let info = model.setInfos[indexPath.row]
+        
+        cell.iconView.image = info.icon
+        cell.titleLbl.text = info.title
+        
+        return cell
     }
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SetInfoCell: UICollectionViewCell {
+class SendCell: UICollectionViewCell {
     @IBOutlet weak var iconView : UIImageView!
     @IBOutlet weak var titleLbl: UILabel!
     
