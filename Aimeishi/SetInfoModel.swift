@@ -13,14 +13,14 @@ class SetInfoModel {
     var setInfos = [SetInfoDTO]()
     
     func getSetInfos() {
-        let info1 = SetInfoDTO(icon: UIImage(named: "")!, title: "ただいま空いてます")
-        let info2 = SetInfoDTO(icon: UIImage(named: "")!, title: "唐揚げ焼きたて")
-        let info3 = SetInfoDTO(icon: UIImage(named: "")!, title: "ビルあります")
-        let info4 = SetInfoDTO(icon: UIImage(named: "")!, title: "44444")
-        let info5 = SetInfoDTO(icon: UIImage(named: "")!, title: "55555")
-        let info6 = SetInfoDTO(icon: UIImage(named: "")!, title: "66666")
-        let info7 = SetInfoDTO(icon: UIImage(named: "")!, title: "77777")
-        let info8 = SetInfoDTO(icon: UIImage(named: "")!, title: "88888")
+        let info1 = SetInfoDTO(icon: UIImage(named: "icon_food")!, title: "ただいま空いてます")
+        let info2 = SetInfoDTO(icon: UIImage(named: "icon_cake")!, title: "美味しいケーキ")
+        let info3 = SetInfoDTO(icon: UIImage(named: "icon_beer")!, title: "ビルあります")
+        let info4 = SetInfoDTO(icon: UIImage(named: "icon_chap")!, title: "冷たいビルどうぞ")
+        let info5 = SetInfoDTO(icon: UIImage(named: "icon_egg")!, title: "メメ目玉焼き")
+        let info6 = SetInfoDTO(icon: UIImage(named: "icon_hotsteak")!, title: "超辛いステーキ")
+        let info7 = SetInfoDTO(icon: UIImage(named: "icon_sandwitch")!, title: "サンドイッチ専門")
+        let info8 = SetInfoDTO(icon: UIImage(named: "icon_fired")!, title: "フライドポテト")
         
         setInfos.append(info1)
         setInfos.append(info2)

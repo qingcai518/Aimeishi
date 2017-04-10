@@ -12,6 +12,13 @@ class Navi2Controller: NavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let storyboard = UIStoryboard(name: "SetInfo", bundle: nil)
+        guard let next = storyboard.instantiateInitialViewController() else {
+            return
+        }
+        
+        self.viewControllers = [next]
     }
 
     override func didReceiveMemoryWarning() {
