@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Aimeishi
+
+  Created by RN-079 on 2017/04/10.
+  Copyright © 2017年 RN-079. All rights reserved.
+*/
+
+Enter_userBtn = "User";
+Enter_clientBtn = "Client";
+
+CLogin_nameLbl = "ShopId";
+CLogin_passwordLbl = "Password";
+CLogin_loginBtn = "Login";
