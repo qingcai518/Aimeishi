@@ -34,7 +34,10 @@ extension SendController : UICollectionViewDelegate {
 }
 
 extension SendController : UICollectionViewDelegateFlowLayout {
-    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let size = screenWidth / 3
+        return CGSize(width: size, height: size)
+    }
 }
 
 extension SendController : UICollectionViewDataSource {
