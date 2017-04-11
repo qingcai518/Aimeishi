@@ -16,6 +16,7 @@ class SendController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        model.getSetInfos()
         setCollectionView()
     }
 
@@ -30,7 +31,9 @@ class SendController: ViewController {
 }
 
 extension SendController : UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
+    }
 }
 
 extension SendController : UICollectionViewDelegateFlowLayout {

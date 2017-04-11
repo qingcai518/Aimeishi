@@ -20,7 +20,7 @@ class SendModel {
         let info5 = SendDTO(icon: UIImage(named: "icon_egg")!, title: "メメ目玉焼き")
         let info6 = SendDTO(icon: UIImage(named: "icon_hotsteak")!, title: "超辛いステーキ")
         let info7 = SendDTO(icon: UIImage(named: "icon_sandwitch")!, title: "サンドイッチ専門")
-        let info8 = SendDTO(icon: UIImage(named: "icon_fired")!, title: "フライドポテト")
+        let info8 = SendDTO(icon: UIImage(named: "icon_fried")!, title: "フライドポテト")
         
         setInfos.append(info1)
         setInfos.append(info2)

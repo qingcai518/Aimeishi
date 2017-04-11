@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Send Controller-->
+        <!--Set Info Controller-->
         <scene sceneID="NGC-uI-3DC">
             <objects>
-                <viewController id="QT3-Ko-Esa" customClass="SendController" customModule="Aimeishi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QT3-Ko-Esa" customClass="SetInfoController" customModule="Aimeishi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="icj-jz-BMI"/>
                         <viewControllerLayoutGuide type="bottom" id="Zzd-7b-nJ5"/>
